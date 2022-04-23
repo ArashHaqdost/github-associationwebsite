@@ -77,12 +77,18 @@ p {
 /* Header */
 .companyName {
   font-size: 0.8rem;
-  margin: 0 auto;
-  width: 85%;
+  margin-top: 20px;
+  margin-left: 20px;
   color: var(--textColor);
 }
+/* language  */
+.topNav{
+  display:flex;
+  justify-content: space-between;
+}
 .topHeaderCol1 {
-  padding-top: 0.2rem;
+  display: flex;
+  justify-content: space-around;
 }
 .nav-link {
   position: relative;

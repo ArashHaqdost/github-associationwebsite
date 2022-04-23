@@ -74,14 +74,14 @@ p {
   font-size: 1.3rem;
 }
 
-/* Header */
+/*top Header */
 .companyName {
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   margin-top: 20px;
   margin-left: 20px;
   color: var(--textColor);
 }
-/* language  */
+
 .topNav{
   display:flex;
   justify-content: space-between;
@@ -90,6 +90,7 @@ p {
   display: flex;
   justify-content: space-around;
 }
+/* end top  header */
 .nav-link {
   position: relative;
 }

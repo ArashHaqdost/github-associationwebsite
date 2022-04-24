@@ -14,7 +14,7 @@
 :root {
   --lightColor: #fff;
   --darkColor: #4e4e50;
-  --CommunityColor: #950740;
+  --CommunityColor: #03ac6b;
   --lightAnar: #950740;
   --textColor: #1a1a1d;
   --navBorder: #eeeeee;
@@ -167,7 +167,7 @@ p {
 .menubar_sm {
   width: 100%;
   height: 100vh;
-  background-color: #07c39a;
+  background-color: #950740;
   position: fixed;
   top: 0 !important;
   z-index: 10000 !important;

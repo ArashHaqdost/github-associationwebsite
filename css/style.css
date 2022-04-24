@@ -26,7 +26,7 @@
 body {
   font-size: 1.5rem;
   font-family: "vazir";
-  background-color: var(--lightColor);
+  background-color: var(--darkColor);
   display: flex;
   min-height: 100vh;
   flex-direction: column;

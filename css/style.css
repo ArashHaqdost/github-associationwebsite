@@ -14,7 +14,7 @@
 :root {
   --lightColor: #fff;
   --darkColor: #4e4e50;
-  --CommunityColor: #03ac6b;
+  --CommunityColor: #950740;
   --lightAnar: #950740;
   --textColor: #1a1a1d;
   --navBorder: #eeeeee;
@@ -404,7 +404,7 @@ a.btns:hover::after {
   display: flex;
   position: relative;
   top: 0%;
-  border: 1px solid #03ac6b;
+  border: 1px solid #950740;
   border-radius: 5px;
   margin-bottom: 2%;
   min-height: 100%;

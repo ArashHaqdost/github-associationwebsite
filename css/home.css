@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all ease-in-out 0.5s;
+  }
+  .language a{
+    color: #000 !important;
+  }
+  .language:hover a{
+    color: var(--CommunityColor) !important;
+  }
+  
+  :root {
+    --lightColor: #fff;
+    --darkColor: #4e4e50;
+    --CommunityColor: #03ac6b;
+    --lightAnar: #F10E69;
+    --textColor: #1a1a1d;
+    --navBorder: #eeeeee;
+    --counterBack: rgb(230, 218, 210);
+    --textContrast: rgb(214, 209, 209);
+    --newsCardBackgourndColor: rgba(255, 246, 246, 0.7);
+    --blogbackColor: rgba(0, 0, 0, 0.1);
+  }
+  body {
+    font-size: 1.5rem;
+    font-family: "vazir";
+    background-color: var(--lightColor);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    scroll-behavior: smooth !important;
+    margin: 0;
+  }
+  .cursor {
+    width: 15px;
+    height: 15px;
+    background-color: var(--CommunityColor) !important;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 200000000;
+    transform: translate(-50%, -50%);
+  }
+  main {
+    flex: 1 0 auto;
+  }
+  .title-color{
+   color: var(--CommunityColor) !important;
+  }
+  /* general styles */
+  a {
+    text-decoration: none !important;
+    color: var(--textColor) !important;
+    font-size: 1rem;
+  }
+  a:hover {
+    transition: all ease-out 0.5s;
+    font-weight: bold;
+  }
+  footer a:hover {
+    cursor: pointer !important;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  div {
+    color: var(--textColor);
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  
+/* start the home page styles
+//////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+ */
+ .menu{
+    background-color: var(--lightAnar);
+    color: var(--textColor);
+  }
+ .carosel{
+      background-image: url("../img/home/background.png");
+      display: flex;
+ }
